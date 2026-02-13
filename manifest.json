@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "minecraft_version": "1.20.1",
+  "forge_version": "47.2.0",
+  "mods": [
+    {
+      "name": "JEI (Just Enough Items)",
+      "url": "https://example.com/mods/jei-1.20.1-forge-15.3.0.4.jar",
+      "sha1": "abc123def456",
+      "filename": "jei-1.20.1-forge-15.3.0.4.jar",
+      "optional": false,
+      "category": "Utility"
+    },
+    {
+      "name": "Optifine",
+      "url": "https://example.com/mods/optifine-1.20.1-HD-U-I6.jar",
+      "sha1": "def456ghi789",
+      "filename": "optifine-1.20.1-HD-U-I6.jar",
+      "optional": true,
+      "category": "Performance"
+    },
+    {
+      "name": "Biomes O' Plenty",
+      "url": "https://example.com/mods/biomes-o-plenty.jar",
+      "sha1": "ghi789jkl012",
+      "filename": "BiomesOPlenty-1.20.1-18.0.0.592.jar",
+      "optional": true,
+      "category": "World Gen"
+    },
+    {
+      "name": "Applied Energistics 2",
+      "url": "https://example.com/mods/ae2.jar",
+      "sha1": "jkl012mno345",
+      "filename": "appliedenergistics2-15.0.15.jar",
+      "optional": false,
+      "category": "Tech"
+    },
+    {
+      "name": "The Twilight Forest",
+      "url": "https://example.com/mods/twilightforest.jar",
+      "sha1": "mno345pqr678",
+      "filename": "twilightforest-1.20.1-4.3.1893.jar",
+      "optional": true,
+      "category": "Adventure"
+    }
+  ],
+  "resourcepacks": [
+    {
+      "name": "Faithful 32x",
+      "url": "https://example.com/resourcepacks/faithful-32x.zip",
+      "sha1": "pqr678stu901",
+      "filename": "Faithful-32x-1.20.zip",
+      "optional": true,
+      "category": "Texture Pack"
+    },
+    {
+      "name": "Vanilla Tweaks",
+      "url": "https://example.com/resourcepacks/vanilla-tweaks.zip",
+      "sha1": "stu901vwx234",
+      "filename": "VanillaTweaks-1.20.zip",
+      "optional": true,
+      "category": "Quality of Life"
+    }
+  ],
+  "shaderpacks": [
+    {
+      "name": "BSL Shaders",
+      "url": "https://example.com/shaders/BSL-v8.2.04.zip",
+      "sha1": "vwx234yza567",
+      "filename": "BSL-v8.2.04.zip",
+      "optional": true,
+      "category": "Realistic"
+    },
+    {
+      "name": "Complementary Shaders",
+      "url": "https://example.com/shaders/complementary.zip",
+      "sha1": "yza567bcd890",
+      "filename": "Complementary-r5.1.1.zip",
+      "optional": true,
+      "category": "Vibrant"
+    }
+  ]
+}
