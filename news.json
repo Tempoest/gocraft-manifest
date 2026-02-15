@@ -6,7 +6,7 @@
       "content": "Congratulations to our build contest winners! Check out their amazing creations in the spawn area. Thanks to everyone who participated!",
       "author": "CommunityTeam",
       "published_at": "2026-02-05T16:00:00Z",
-      "image_url": "https://tempoest.github.io/gocraft-manifest/build-contest.png",
+      "image_url": "https://tempoest.github.io/gocraft-manifest/build_contest.png",
       "tags": ["community", "contest", "builds"],
       "category": "community"
     },
@@ -16,7 +16,7 @@
       "content": "We're excited to announce our brand new custom launcher! It features faster downloads, better performance, and a sleek modern interface. Download it now!",
       "author": "DevTeam",
       "published_at": "2026-02-01T12:00:00Z",
-      "image_url": "https://tempoest.github.io/gocraft-manifest/new-launcher.jpg",
+      "image_url": "https://tempoest.github.io/gocraft-manifest/new_launcher.jpg",
       "tags": ["launcher", "release", "features"],
       "category": "announcement"
     }
