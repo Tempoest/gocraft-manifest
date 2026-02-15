@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Server Update 1.21.1 Released!",
+      "content": "We've upgraded to NeoForge 1.21.1 with exciting new features and performance improvements. Check out the new mods and optimizations!",
+      "author": "Admin",
+      "published_at": "2026-02-15T12:00:00Z",
+      "image_url": "https://example.com/news/update-1.21.1.jpg",
+      "tags": ["update", "neoforge", "performance"],
+      "category": "update"
+    },
+    {
+      "id": "2",
+      "title": "Valentine's Day Event Starting Soon!",
+      "content": "Join us for a special Valentine's Day event with exclusive rewards, custom dungeons, and limited-time items. Event runs from Feb 14-21.",
+      "author": "EventTeam",
+      "published_at": "2026-02-14T10:00:00Z",
+      "image_url": "https://example.com/news/valentines-event.jpg",
+      "tags": ["event", "seasonal", "rewards"],
+      "category": "event"
+    },
+    {
+      "id": "3",
+      "title": "New Mods Added to the Server",
+      "content": "We've added several community-requested mods including Create, Farmers Delight, and Alex's Mobs. Download the latest launcher update to get them automatically!",
+      "author": "ModTeam",
+      "published_at": "2026-02-10T14:30:00Z",
+      "image_url": "https://example.com/news/new-mods.jpg",
+      "tags": ["mods", "content"],
+      "category": "announcement"
+    },
+    {
+      "id": "4",
+      "title": "Scheduled Maintenance - Feb 20",
+      "content": "The server will be offline for maintenance on February 20th from 3:00 AM to 6:00 AM EST. We'll be upgrading hardware and optimizing performance.",
+      "author": "Admin",
+      "published_at": "2026-02-08T09:00:00Z",
+      "image_url": null,
+      "tags": ["maintenance", "downtime"],
+      "category": "maintenance"
+    },
+    {
+      "id": "5",
+      "title": "Community Build Contest Winners!",
+      "content": "Congratulations to our build contest winners! Check out their amazing creations in the spawn area. Thanks to everyone who participated!",
+      "author": "CommunityTeam",
+      "published_at": "2026-02-05T16:00:00Z",
+      "image_url": "https://example.com/news/build-contest.jpg",
+      "tags": ["community", "contest", "builds"],
+      "category": "community"
+    },
+    {
+      "id": "6",
+      "title": "New Custom Launcher Released",
+      "content": "We're excited to announce our brand new custom launcher! It features faster downloads, better performance, and a sleek modern interface. Download it now!",
+      "author": "DevTeam",
+      "published_at": "2026-02-01T12:00:00Z",
+      "image_url": "https://example.com/news/new-launcher.jpg",
+      "tags": ["launcher", "release", "features"],
+      "category": "announcement"
+    }
+  ],
+  "last_updated": "2026-02-15T12:00:00Z"
+}
