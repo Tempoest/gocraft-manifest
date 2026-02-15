@@ -2,25 +2,96 @@
   "version": "1.21.1",
   "modloader": {
     "type": "neoforge",
-    "version": "21.1.216",
-    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.216/neoforge-21.1.216-installer.jar",
-    "sha1": "62118f0aed41e5a5c2b1b9e4feb35a22c4609548"
+    "version": "21.1.73",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.73/neoforge-21.1.73-installer.jar",
+    "sha1": "abc123def456789"
   },
   "client": {
-    "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
-    "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88"
+    "url": "https://piston-data.mojang.com/v1/objects/minecraft-1.21.1-client.jar",
+    "sha1": "def456abc789123",
+    "size": 25000000
   },
   "mods": [
     {
-      "name": "jei",
-      "displayName": "Just Enough Items",
-      "url": "https://www.curseforge.com/api/v1/mods/238222/files/7420587/download",
-      "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941",
-      "required": true
+      "name": "JEI",
+      "version": "16.0.0.28",
+      "url": "https://example.com/mods/jei-1.21.1-16.0.0.28.jar",
+      "sha1": "mod123hash456",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "name": "OptiFine",
+      "version": "HD_U_I6",
+      "url": "https://example.com/mods/optifine-1.21.1-HD_U_I6.jar",
+      "sha1": "optifine789hash",
+      "required": false,
+      "side": "client"
     }
   ],
-  "resourcepacks": [
+  "libraries": [
+    {
+      "name": "org.ow2.asm:asm:9.5",
+      "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/9.5/asm-9.5.jar",
+      "sha1": "lib123hash456"
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
+      "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+      "sha1": "lib456hash789"
+    }
   ],
-  "shaderpacks": [
-  ]
+  "assets": {
+    "index_url": "https://launchermeta.mojang.com/v1/packages/assetindex/1.21.json",
+    "index_sha1": "assets123hash",
+    "objects_base_url": "https://resources.download.minecraft.net"
+  },
+  "java": {
+    "version": "21",
+    "min_memory_mb": 2048,
+    "max_memory_mb": 8192
+  },
+  "launch_args": {
+    "game": [
+      "--username",
+      "${auth_player_name}",
+      "--version",
+      "${version_name}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${assets_root}",
+      "--assetIndex",
+      "${assets_index_name}",
+      "--uuid",
+      "${auth_uuid}",
+      "--accessToken",
+      "${auth_access_token}",
+      "--userType",
+      "${user_type}",
+      "--versionType",
+      "${version_type}"
+    ],
+    "jvm": [
+      "-XX:+UseG1GC",
+      "-XX:+ParallelRefProcEnabled",
+      "-XX:MaxGCPauseMillis=200",
+      "-XX:+UnlockExperimentalVMOptions",
+      "-XX:+DisableExplicitGC",
+      "-XX:+AlwaysPreTouch",
+      "-XX:G1HeapWastePercent=5",
+      "-XX:G1MixedGCCountTarget=4",
+      "-XX:InitiatingHeapOccupancyPercent=15",
+      "-XX:G1MixedGCLiveThresholdPercent=90",
+      "-XX:G1RSetUpdatingPauseTimePercent=5",
+      "-XX:SurvivorRatio=32",
+      "-XX:+PerfDisableSharedMem",
+      "-XX:MaxTenuringThreshold=1",
+      "-Dusing.aikars.flags=https://mcflags.emc.gs",
+      "-Daikars.new.flags=true",
+      "-Djava.library.path=${natives_directory}",
+      "-Dminecraft.launcher.brand=gocraft-launcher",
+      "-Dminecraft.launcher.version=1.0.0"
+    ]
+  }
 }
