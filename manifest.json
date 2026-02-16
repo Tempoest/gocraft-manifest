@@ -41,10 +41,10 @@
       "sha1": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c"
     }
   ],
-  "assets": {
-    "index_url": "https://assets.mcasset.cloud/1.21.1/1.21.1.json",
-    "index_sha1": "94f420093e771cd1e72614184736b044c747a8df",
-    "objects_base_url": "https://assets.mcasset.cloud"
+"assets": {
+    "index_url": "https://piston-meta.mojang.com/v1/packages/8d374438317772658a5e82b75f850e05139a0669/17.json",
+    "index_sha1": "8d374438317772658a5e82b75f850e05139a0669",
+    "objects_base_url": "https://resources.download.minecraft.net"
   },
   "java": {
     "version": "21",
