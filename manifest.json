@@ -42,7 +42,7 @@
     }
   ],
 "assets": {
-    "index_url": "https://piston-meta.mojang.com/v1/packages/8d374438317772658a5e82b75f850e05139a0669/17.json",
+    "index_url": "https://piston-meta.mojang.com/v1/packages/4ad5115ed940cc78c8ab2291401b626c907dfc14/17.json",
     "index_sha1": "8d374438317772658a5e82b75f850e05139a0669",
     "objects_base_url": "https://resources.download.minecraft.net"
   },
